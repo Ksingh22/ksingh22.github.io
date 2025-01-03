@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Woodlea Volleyball Club - Join our community, train hard, and play with passion.">
+    <title>Woodlea Volleyball Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card h2 {
+            color: #333;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Woodlea Volleyball Club</h1>
+        <p>Join our community, train hard, and play with passion.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#schedule">Training Schedule</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="card">
+                <h2>About Us</h2>
+                <p>The Woodlea Volleyball Club is dedicated to fostering a love for volleyball and promoting sportsmanship, teamwork, and physical fitness within our community. We offer training programs for all skill levels, from beginners to advanced players.</p>
+                <img src="volleyball.jpg" alt="Volleyball Game">
+            </div>
+        </section>
+
+        <!-- Training Schedule Section -->
+        <section id="schedule">
+            <div class="card">
+                <h2>Training Schedule</h2>
+                <p>Our training sessions are held weekly and are designed to suit players of all skill levels. Here is our current schedule:</p>
+                <ul>
+                    <li><strong>Monday:</strong> Beginner’s Training - 6:00 PM - 7:30 PM</li>
+                    <li><strong>Wednesday:</strong> Intermediate Training - 6:00 PM - 7:30 PM</li>
+                    <li><strong>Friday:</strong> Advanced Training - 6:00 PM - 7:30 PM</li>
+                    <li><strong>Sunday:</strong> Open Play - 2:00 PM - 4:00 PM</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="card">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or would like to join the club, please fill out the form below:</p>
+
+                <div class="contact-form">
+                    <form action="mailto:info@woodleavbclub.com" method="post" enctype="text/plain">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Woodlea Volleyball Club. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
